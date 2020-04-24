@@ -1,0 +1,74 @@
+.font-1{font-family: 'Codystar', cursive;}
+.font-2{font-family: 'Cinzel', serif;}
+.font-3{font-family: 'Homemade Apple', cursive;}
+.font-4{font-family: 'Allerta Stencil', sans-serif;}
+
+@media screen and (max-width: 1800px) {
+    .head{
+        font-size: 5rem;
+    }
+
+    .file{
+        width: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .file-name{
+        width: 80px;
+    }
+
+    .file-image{
+        width: 100px;
+    }
+
+    .trash{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .head{
+        font-size: 1.2rem;
+    }
+
+    .file{
+        width: 60px;
+    }
+
+    .file-name{
+        width: 50px;
+    }
+
+    .file-image{
+        width: 60px;
+    }
+    .trash{
+        font-size: 18px;
+    }
+}
+
+.head{
+    color: #481380;
+}
+
+.file-image{
+    transition: all .7s;
+}
+
+.file-image:hover{
+    opacity: .5;
+}
+
+.file{
+    display: inline-block;
+}
+
+.trash{
+    transition: all .5s;
+}
+
+.trash:hover{
+    font-size: 30px;
+}
+
